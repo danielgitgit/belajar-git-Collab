@@ -4,6 +4,7 @@ import { performExit } from './exit.js';
 import { square } from './square.js';
 import { akar_tiga } from './akar_tiga.js';
 import { addition } from './addition.js';
+import { multiplication } from './multiplication.js';
 
 function displayMenu() {
     return parseInt(
@@ -26,7 +27,7 @@ do {
 
     switch (menu) {
         case 1:
-            performAddition()
+            addition()
             break;
         case 2:
             performSubtraction()
@@ -44,7 +45,7 @@ do {
             performSqrt()
             break;
         case 7:
-            performCbrt()
+            akar_tiga()
             break;
         case 8:
             performExit()
