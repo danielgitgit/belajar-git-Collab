@@ -1,6 +1,7 @@
-
+import { performSubtraction } from './substraction.js';
 import { performSqrt } from './sqrt.js';
 import { performExit } from './exit.js';
+import { square } from './square.js';
 
 function displayMenu() {
     return parseInt(
