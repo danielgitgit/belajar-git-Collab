@@ -1,4 +1,4 @@
-export function square(num){
-  let sum = num ** 2;
-  alert(`The square of ${num} is ${sum}`);
+export function square(){
+    let sum = Math.pow(num, 2);
+    alert(`Hasil pangkat dua dari (${num}) adalah ${sum}`);
 }
