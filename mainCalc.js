@@ -2,6 +2,8 @@ import { performSubtraction } from './substraction.js';
 import { performSqrt } from './sqrt.js';
 import { performExit } from './exit.js';
 import { square } from './square.js';
+import { akar_tiga } from './akar_tiga.js';
+import { akar_tiga } from './akar_tiga.js';
 
 function displayMenu() {
     return parseInt(
@@ -36,7 +38,7 @@ do {
             performMultiplication()
             break;
         case 5:
-            performSquare()
+            square()
             break;
         case 6:
             performSqrt()
