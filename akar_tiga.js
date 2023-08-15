@@ -1,7 +1,5 @@
-function akar_tiga(a)
+export function akar_tiga(a)
 {
-    b=Math.cbrt(a);
+    let b=Math.cbrt(a);
     return b;
 }
-
-export function akar_tiga();
