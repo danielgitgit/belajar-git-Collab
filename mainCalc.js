@@ -2,7 +2,7 @@ import { performSubtraction } from './substraction.js';
 import { performMultiplication } from './multiplication.js';
 import { performSqrt } from './sqrt.js';
 import { performExit } from './exit.js';
-import { performSquare } from './square.js';
+import { square } from './square.js';
 
 function displayMenu() {
     return parseInt(
