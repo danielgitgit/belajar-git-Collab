@@ -1,6 +1,7 @@
 import { performAddition } from './addition.js';
 import { performSubtraction } from './substraction.js';
 import { performDivision } from './division.js';
+import { performMultiplication } from './multiplication.js';
 import { performSquare } from './square.js';
 import { performSqrt } from './sqrt.js';
 import { performCbrt } from './akar_tiga.js';
@@ -27,7 +28,7 @@ do {
 
     switch (menu) {
         case 1:
-            performAddition()
+            addition()
             break;
         case 2:
             performSubtraction()
@@ -45,7 +46,7 @@ do {
             performSqrt()
             break;
         case 7:
-            performCbrt()
+            akar_tiga()
             break;
         case 8:
             performExit()

@@ -1,5 +1,4 @@
 export function square(num){
-    return num * num;
+  let sum = num ** 2;
+  alert(`The square of ${num} is ${sum}`);
   }
-
-console.log(square(6)); 
