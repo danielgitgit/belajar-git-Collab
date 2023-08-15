@@ -1,18 +1,18 @@
+import { performAddition } from './addition.js';
 import { performSubtraction } from './substraction.js';
+import { performDivision } from './division.js';
 import { performMultiplication } from './multiplication.js';
+import { performSquare } from './square.js';
 import { performSqrt } from './sqrt.js';
+import { performCbrt } from './akar_tiga.js';
 import { performExit } from './exit.js';
-import { square } from './square.js';
-import { akar_tiga } from './akar_tiga.js';
-import { addition } from './addition.js';
-import { performMultiplication } from './multiplication.js';
 
 function displayMenu() {
     return parseInt(
         prompt(`Apa yang ingin Anda lakukan?\n
         1. ADDITION - Leon
-        2. SUBSTRACTION - raisa
-        3. DIVISION - dimas Yusuf
+        2. SUBSTRACTION - Raisa
+        3. DIVISION - Dimas Yusuf
         4. MULTIPLICATION - Andika
         5. SQUARE - Jusuf Fahri
         6. SQRT - Achmad
@@ -40,7 +40,7 @@ do {
             performMultiplication()
             break;
         case 5:
-            square()
+            performSquare()
             break;
         case 6:
             performSqrt()
