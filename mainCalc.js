@@ -5,7 +5,7 @@ import { performExit } from './exit.js';
 import { square } from './square.js';
 import { akar_tiga } from './akar_tiga.js';
 import { addition } from './addition.js';
-import { multiplication } from './multiplication.js';
+import { performMultiplication } from './multiplication.js';
 
 function displayMenu() {
     return parseInt(
