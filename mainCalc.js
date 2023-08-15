@@ -4,7 +4,7 @@ import { performSqrt } from './sqrt.js';
 import { performExit } from './exit.js';
 import { square } from './square.js';
 import { akar_tiga } from './akar_tiga.js';
-import { akar_tiga } from './addition.js';
+import { addition } from './addition.js';
 
 function displayMenu() {
     return parseInt(
