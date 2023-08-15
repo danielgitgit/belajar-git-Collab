@@ -1,10 +1,10 @@
-import { performAddition } from './addition.js';
+import { addition } from './addition.js';
 import { performSubtraction } from './substraction.js';
-import { performDivision } from './division.js';
+import { division } from './division.js';
 import { performMultiplication } from './multiplication.js';
-import { performSquare } from './square.js';
+import { square } from './square.js';
 import { performSqrt } from './sqrt.js';
-import { performCbrt } from './akar_tiga.js';
+import { akar_tiga } from './akar_tiga.js';
 import { performExit } from './exit.js';
 
 function displayMenu() {
@@ -34,13 +34,13 @@ do {
             performSubtraction()
             break;
         case 3:
-            performDivision()
+            division()
             break;
         case 4:
             performMultiplication()
             break;
         case 5:
-            performSquare()
+            square()
             break;
         case 6:
             performSqrt()
