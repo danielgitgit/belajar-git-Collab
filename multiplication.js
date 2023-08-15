@@ -1,0 +1,7 @@
+ export function performMultiplication(num1, num2) {
+  let result = num1 * num2;
+  alert(`The result of ${num1} multiplied by ${num2} is ${result}`);
+  // console.log(`The result of ${num1} multiplied by ${num2} is ${result}`);
+}
+
+// performMultiplication(7, 10);

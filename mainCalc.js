@@ -1,4 +1,5 @@
 import { performSubtraction } from './substraction.js';
+import { performMultiplication } from './multiplication.js';
 import { performSqrt } from './sqrt.js';
 import { performExit } from './exit.js';
 
